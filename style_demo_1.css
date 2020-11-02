@@ -1,0 +1,303 @@
+body{
+    margin: 0 ;
+}
+.top ,.menu{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top{
+    margin-bottom: 60px;
+}
+#icon{
+    float: right;
+}
+.top img{
+    margin-right: 5px;
+}
+menu{
+    display: flex;
+}
+
+.sub-menu ul{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+}
+.sub-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+    transition: border-bottom 0.2s;
+}
+.sub-menu ul li:hover{
+    border-bottom: 5px solid #76a800;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    margin: 0 auto;
+    width: 1920px;
+    background-image: url("image_demo_1/home_02.png");
+    height: 720px;
+    margin-top: 50px;
+}
+.title #title1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.title #title2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.title{
+    position: relative;
+    top: 250px;
+    left: 380px;
+}
+button{
+    border: none;
+    background-color: #83b119;
+    padding: 18px;
+    border-radius: 2px;
+    color: #fff;
+}
+button:hover{
+    background: #b7c719;
+}
+.body-1{
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sub-conten{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #ebebeb;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+    
+}
+.sub-conten:hover{
+    border: 1px solid black;
+    transform: translateY(-10px);
+}
+.sub-conten h3{
+    margin-top:65px ;
+}
+.sub-conten p{
+    margin-top: 50px;
+}
+.sub-conten img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-conten button{
+    display: block;
+    border: none;
+    background: none;
+    color: #afafb0;
+    font-size: 24px;
+    position: relative ;
+    left: 120px;
+}
+.sub-conten button:hover{
+    color: black;
+}
+.sub-body-1{
+    display: flex;
+}
+.sub-body-2{
+    width: 1920px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #f5f9fc;
+}
+.sub-body-2 .menu-2 h2{
+    display: inline-block;
+    position: relative;
+    top: 25px;
+}
+.menu-2.sub-menu ul li a{
+    font-weight: bold;
+}
+
+.menu-2 .sub-menu ul li:hover{
+    color: #76a800;
+    border: 1px solid #76a800;
+       
+}
+div .menu-2{
+    width: 1200px;
+    position: relative;
+    left: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:100px;
+    margin-bottom: 80px;
+}
+.sub-body-2 button{
+    position: relative;
+    left: 45%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.sub-body-1.hai{
+    border: 1px solid #afafb0;
+    width: 1180px;
+    
+}
+#box-1{
+    display: inline-block;
+    float: right;
+    padding: 70px;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+#box-1 h3{
+    margin-bottom:50px ;
+    text-align: left;
+    font-size: 27px;
+}
+#box-1 p{
+    text-align: left;
+    line-height: 2rem;
+}
+#box-2 {
+    text-align:left;
+    margin-left: 60px;
+    margin-top: 65px;
+    line-height: 2rem;
+    float: left;
+}
+#box-2 h3{
+    font-size: 27px;
+}
+
+.sub-conten.hai{
+    background: #fff;
+    padding-right: 15px;
+    height: 300px;
+    padding-left: 20px;
+    
+}
+.sub-conten.hai h3{
+    margin-top: 45px;
+    text-align: left;
+    margin-left: 60px;
+}
+.sub-conten.hai p{
+    float: right;
+    text-align: left;
+    margin-top: 0px;
+}
+.sub-conten.hai button{
+    position: relative;
+    left: 100px;
+}
+.sub-conten.hai img{
+    float: left;
+    
+}
+.button-next{
+     position: relative;
+    left:-47%;
+}
+.sub-button{
+    background-color: #fff;
+    color: #cfe1b0;
+    border: 2px solid #cfe1b0;
+    padding: 10px;
+    font-weight: bold;
+}
+.sub-button:hover{
+    color: #76a800;
+    border: 2px solid #76a800;
+    background-color: #Fff;
+    font-weight: bold;
+}
+.choose{
+    
+    background-color: #fff;
+}
+.text{
+    padding: 60xp;
+    text-align: left;
+    float: right;
+    padding-right: 300px;
+    line-height: 80px;
+    font-size: 26px;
+}
+.text p:hover{
+    color: #b7c719;
+}
+
+.box{
+    background-image: url("image_demo_1/textbox.png");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 270px;
+    padding: 20px;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 30px;
+    letter-spacing: 1.5px;
+    color: #a8aaab;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.box i{
+    font-size: 40px;
+    position: relative;
+    left: 250px;
+    top: -18px;
+    color: #f0f1f2;
+}
+.footer{
+    width: 1920px;
+    margin: 0 auto;
+    background:#38383b;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+.con{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top:100px ;
+    color: #fff;
+    display: flex;
+}   
+.sub-con{
+    width: 550px;
+    margin: 25px;
+}
+.sub-con .hai img{
+    float: left;
+    
+}
+.sub-con span{
+    margin-left: 25px;
+}input[type='text']{
+    height: 40px;
+    background: #38383b;
+    border: 1px solid #909092;
+    width: 180px;
+    margin: 15px;
+    margin-left: 0ch;
+}
+textarea 
+{
+    background: #38383b;
+    color: #909092;
+}
